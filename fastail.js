@@ -4,7 +4,7 @@ import fs from 'fs';
 
 
 function fastail() {
-
+    console.log("\x1b[36m");
     function loadingAnimation() {
       let i = 0;
       const animationFrames = ['|', '/', '-', '\\'];
@@ -76,6 +76,7 @@ function fastail() {
                     console.error(`Error writing to tailwind.config.js: ${err}`);
                   } else {
                     console.log('tailwind.config.js has been updated.');
+                    
                   }
                 });
 
@@ -103,13 +104,21 @@ function fastail() {
                       });
                       }
                   });
-                  
+                  const note = "\n// IMPORTAND NOTE : IF YOU'RE USING A FRAMEWORK MOVE INDEX.CSS TO THE RIGHT FOLDER\n"
+                  setTimeout(() => {
+                    console.log("\x1b[33m%s\x1b[0m", note);
+                  }, "1000");
+                  setTimeout(() => {
+                    console.log("\x1b[33m%s\x1b[0m");
+                  }, "1001");
               }
             });
           }
         });
+ 
       });
     });
+
   });
 
 
