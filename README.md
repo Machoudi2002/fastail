@@ -1,6 +1,4 @@
-Certainly! Here's the updated README.md file for your package, "Fastail," which makes it easy to set up Tailwind CSS with a single command:
 
-```markdown
 # Fastail - Simplifying Tailwind CSS Setup
 
 **Fastail** is a powerful Node.js command-line tool that streamlines the process of setting up a project with Tailwind CSS. With a single command, you can quickly initialize your project, install Tailwind CSS and its dependencies, create or update a `tailwind.config.js` file, and generate an `index.css` file with essential Tailwind CSS base styles.
@@ -25,7 +23,7 @@ npm install -g fastail
 After globally installing the package, you can use it to set up a new project with Tailwind CSS in no time:
 
 ```sh
-fastail
+node ./node_modules/fastail/fastail.js
 ```
 
 This command will guide you through the setup process, and your new project with Tailwind CSS will be up and running.
