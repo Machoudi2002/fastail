@@ -37,4 +37,3 @@ We welcome contributions and improvements to this project. If you'd like to cont
 If you have any questions or feedback, don't hesitate to get in touch. We value your input and would love to hear from you!
 
 Enjoy a fast and efficient setup with Fastail!
-```
