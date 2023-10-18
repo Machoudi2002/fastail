@@ -36,11 +36,5 @@ We welcome contributions and improvements to this project. If you'd like to cont
 
 If you have any questions or feedback, don't hesitate to get in touch. We value your input and would love to hear from you!
 
-## Acknowledgments
-
-Special thanks to the Tailwind CSS team for their outstanding work.
-
----
-
 Enjoy a fast and efficient setup with Fastail!
 ```
