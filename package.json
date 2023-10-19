@@ -1,0 +1,27 @@
+{
+  "name": "fastail",
+  "version": "1.0.2blish",
+  "description": "Fastail is tool that makes it effortless to set up a project with Tailwind CSS. ",
+  "main": "fastail.js",
+  "type": "module",
+  "bin": {
+    "init": "node fastail.js"
+  },
+  "scripts": {
+    "init": "node fastail.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Machoudi2002/fastail.git)"
+  },
+  "keywords": [
+    "Fastail"
+  ],
+  "author": "Machoudi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
