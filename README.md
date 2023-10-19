@@ -15,18 +15,14 @@
 Ensure you have Node.js and npm installed on your system. To get started with **Fastail**, execute the following command:
 
 ```sh
-npm i fastail
+npx fastail init
 ```
+## Note
 
-## Usage
-
-After globally installing the package, you can use it to set up a new project with Tailwind CSS in no time:
-
+After initializing your project you can easily uninstall the fastail package and it will not effect your project. use the following command :
 ```sh
-node ./node_modules/fastail/fastail.js
+npm uninstall fastail
 ```
-
-This command will guide you through the setup process, and your new project with Tailwind CSS will be up and running.
 
 ## Contributing
 
@@ -37,3 +33,4 @@ We welcome contributions and improvements to this project. If you'd like to cont
 If you have any questions or feedback, don't hesitate to get in touch. We value your input and would love to hear from you!
 
 Enjoy a fast and efficient setup with Fastail!
+
