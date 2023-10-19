@@ -1,11 +1,14 @@
 {
   "name": "fastail",
-  "version": "1.0.0",
-  "description": "fastail is tool that makes it effortless to set up a project with Tailwind CSS. ",
+  "version": "1.0.2blish",
+  "description": "Fastail is tool that makes it effortless to set up a project with Tailwind CSS. ",
   "main": "fastail.js",
   "type": "module",
+  "bin": {
+    "init": "node fastail.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "node fastail.js"
   },
   "repository": {
     "type": "git",
