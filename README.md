@@ -15,7 +15,7 @@
 Ensure you have Node.js and npm installed on your system. To get started with **Fastail**, execute the following command:
 
 ```sh
-npx fastail init
+npx fastail
 ```
 ## Note
 
